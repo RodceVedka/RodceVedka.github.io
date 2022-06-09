@@ -24,6 +24,7 @@ h1{
     margin-left: 15%;
     height: 100px;
     border-radius: 10px;
+    color: beige;
 }
 .BYU{
     color: beige;
@@ -36,4 +37,7 @@ h1{
     width: 240px;
     position: absolute;
     top: 30px;
+}
+.java{
+    margin-left: 200px;
 }
