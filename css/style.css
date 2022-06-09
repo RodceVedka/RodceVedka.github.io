@@ -1,3 +1,25 @@
 header{
- background: rgb(20, 133, 57);
+ background: hsl(144, 7%, 29%);
+ width: 70%;
+ margin-left: 15%;
+ height: 100px;
+ border-radius: 10px;
+}
+h1{
+    padding-left: 35%;
+    padding-top: 25px;
+    color: beige;
+}
+.WDD{
+    margin-left: 15%;
+}
+.item{
+    margin-left: 13.5%;
+}
+bottom{
+    background: hsl(144, 7%, 29%);
+    width: 70%;
+    margin-left: 15%;
+    height: 100px;
+    border-radius: 10px;
 }
