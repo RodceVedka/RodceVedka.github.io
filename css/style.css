@@ -16,10 +16,19 @@ h1{
 .item{
     margin-left: 13.5%;
 }
-bottom{
+.bottom{
     background: hsl(144, 7%, 29%);
     width: 70%;
     margin-left: 15%;
     height: 100px;
     border-radius: 10px;
+}
+.BYU{
+    color: beige;
+    text-decoration: none;
+    margin-left: 250px;
+}
+.photo{
+    margin-left: auto;
+    background: rgb(94, 11, 11);
 }
