@@ -13,6 +13,7 @@ h1{
 .WDD{
     margin-left: 15%;
     box-shadow: 5px 5px 5px #999;
+    width: 70%;
 }
 .item{
     margin-left: 13.5%;
@@ -30,5 +31,9 @@ h1{
     margin-left: 250px;
 }
 .photo{
-    margin-left: 66.5%;
+    margin-left: 67%;
+    box-shadow: 5px 5px 5px #999;
+    width: 240px;
+    position: absolute;
+    top: 30px;
 }
