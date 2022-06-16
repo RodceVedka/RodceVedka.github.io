@@ -24,11 +24,31 @@ nav ul li a {
     margin-top: 50px;
     margin-left: 60px;
 }
+.log{
+    display: flex;
+}
 h1{
     margin-left: 30px;
     margin-top: 70px;
     color: #fff;
 }
-.log{
-    display: flex;
+h2{
+    color: #fff;
+    margin-left: 55px;
+}
+.desc{
+    max-width: 800px;
+    margin-left: 274px;
+    background: #36454f;
+}
+.por{
+    margin-left: 55px ;
+    color:#fff ;
+    margin-top: 5px;
+}
+.sceario{
+    text-decoration: none;
+    color: #fff;
+    margin-left: 60px;
+    font-size: 25px;
 }
