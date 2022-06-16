@@ -52,3 +52,37 @@ h2{
     margin-left: 60px;
     font-size: 25px;
 }
+.color{
+    max-width: 800px;
+    margin-left: 274px;
+    background: #36454f;
+}
+.color2{
+    max-width: 800px;
+    margin-left: 274px;
+    background: grey;
+}
+.color3{
+    max-width: 800px;
+    margin-left: 274px;
+    background: #fff;
+}
+.red{
+    max-width: 800px;
+    margin-left: 274px;
+    background: grey;
+}
+.footer ul a{
+    text-decoration: none;
+    color: #fff;
+    padding: 30px;
+}
+.footer ul {
+	list-style-type: none;
+	overflow: hidden;
+    display: flex;
+}
+.BYU{
+    color: #fff;
+    text-decoration: none;
+}
