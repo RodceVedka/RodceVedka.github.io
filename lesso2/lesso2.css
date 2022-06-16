@@ -30,6 +30,7 @@ nav ul li a {
 	margin: 0 auto;
 	max-width: 800px;
 	box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
+    padding: 10px;
 }
 h1{
     margin-left: 30px;
