@@ -1,0 +1,34 @@
+body{
+    background-image: url(https://p0.pikist.com/photos/649/225/storm-clouds-clouds-thunderstorm-grey-sky-gloomy-storm-end-of-the-world-weltuntergang-humor.jpg );
+}
+nav {
+	background-color: #36454f;
+	margin: 0 auto;
+	max-width: 800px;
+	box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
+    
+}
+nav ul {
+	list-style-type: none;
+	overflow: hidden;
+    display: flex;
+}
+nav ul li a {
+	display: flex;
+	color: #fff;
+    text-decoration: none;
+    padding: 20px;
+	
+}
+.logo{
+    margin-top: 50px;
+    margin-left: 60px;
+}
+h1{
+    margin-left: 30px;
+    margin-top: 70px;
+    color: #fff;
+}
+.log{
+    display: flex;
+}
