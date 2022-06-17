@@ -126,5 +126,5 @@ h2{
   }
   @keyframes mymove {
       from {background-color:#36454f;}
-      to {background-color:beige;}
+      to {background-color:rgba(0,0,0,.70);}
     }
