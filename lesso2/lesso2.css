@@ -12,6 +12,7 @@ nav ul {
 	list-style-type: none;
 	overflow: hidden;
     display: flex;
+    
 }
 nav ul li a {
 	display: flex;
@@ -115,3 +116,15 @@ h2{
   text-decoration: none;
   font-size: 25px;
 }
+.host{
+    float:bottom;
+    color:#36454f;
+    margin-left: 400px;
+    font-size: 20px;
+    animation: mymove 5s infinite;
+    width: 508px;
+  }
+  @keyframes mymove {
+      from {background-color:#36454f;}
+      to {background-color:beige;}
+    }
