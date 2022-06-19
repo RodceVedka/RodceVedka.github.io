@@ -6,7 +6,20 @@
          box-shadow: 0 0 30px rgba(0, 0, 0, 15);
          border-radius:30px ;
          width: 100px;
-       }   
+       } 
+       nav{
+          margin:0 auto ;
+          max-width: 700px;
+          background-color:#000 ;
+       }  
+       .navigation{
+           list-style: none;
+           text-align: center;
+           padding: 0;
+       }
+        .navigation li:first-child {
+            display:block;
+        }
        p{
         color:white;
         margin-left: 20px;
