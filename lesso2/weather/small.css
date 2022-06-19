@@ -6,6 +6,7 @@
      .logo{
         box-shadow: 0 0 30px rgba(0, 0, 0, 15);
          border-radius:30px ;
+         width: 100px;
        }   
        p{
         color:white;
@@ -13,7 +14,8 @@
       }
       h2{
         color:grey;
-      }.presto{
+      }
+      .presto{
         margin: 0 auto;
         width: 200px;
         height: 100px;
