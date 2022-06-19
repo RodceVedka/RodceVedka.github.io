@@ -4,7 +4,7 @@
      align-content:center ;
      }
      .logo{
-        box-shadow: 0 0 30px rgba(0, 0, 0, 15);
+         box-shadow: 0 0 30px rgba(0, 0, 0, 15);
          border-radius:30px ;
          width: 100px;
        }   
