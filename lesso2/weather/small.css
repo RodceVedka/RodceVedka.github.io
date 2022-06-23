@@ -1,3 +1,98 @@
-@media only screen and(min-width: 300px){
+@media only screen and(min-width: 300px){  
+header{
+  background-color: rgba(0,0,0,.70); 
+  }
+.logo{
+      box-shadow: 0 0 30px rgba(0, 0, 0, 15);
+      border-radius:30px ;
+      width: 100px;
+    }
+nav button{
+margin: .2rem 1vw;
+color:#222;
+font-size: 2rem;
+}  
+nav{
+  background-color:#eee ;
+}
+nav ul{
+list-style-type:none; 
+padding:0;
+margin:0;
+
+}
+nav ul li a{
+display: block;
+text-decoration:none;
+padding: .8rem 1vw;
+color: #333;
+border-top: 1px solid rgba(0,0,0,0.5);
+}
+nav ul li a:hover{
+background-color:rgba(0,0,0,0.3);
+}
+.responsive li{
+         display: block;
+}
+p{
+     color:white;
+     margin-left: 20px;
+}
+h2{
+     color:grey;
+}
+.presto{
+     margin: 0 auto;
+     width: 200px;
+     height: 100px;
+   }
+.forest{
+         width: 300px;
+         margin-left: 2px;
+         background-color:grey ;
+         height:50px;
+       }          
+.forest1{
+         width: 300px;
+         margin-left: 2px;
+         background-color:grey ;
+         height:50px;
+       }
+.forest2{
+         width: 300px;
+         margin-left: 2px;
+         background-color:grey ;
+         height:50px;
+       }
+.footer{
+         background-color:grey ;
+         display:block;
+         width: 500px;
+       }
+.red{
+        padding: 0px 0px 
+       }
+.red ul{
+         padding: 40px;
+         display:flex;
+       }
+.red ul a{
+         padding: 20px;
+         text-decoration:none;
+         color:white;
+       }
+.red a:hover{
+         background-color:black ;
+         color:grey;
+       }
+.BYU{
+         color:white;
+         text-decoration:none;
+          margin-top: 5px;
+       }
+.comte{
+         color:white;
+         padding: 25px;
+       }
   
 }

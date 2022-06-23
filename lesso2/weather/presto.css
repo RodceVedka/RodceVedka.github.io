@@ -1,95 +1,167 @@
-
 header{
+  display:flex;
+  justify-content:center;
   background-color: rgba(0,0,0,.70); 
-  }
+}
 .logo{
-      box-shadow: 0 0 30px rgba(0, 0, 0, 15);
-      border-radius:30px ;
-      width: 100px;
-    }
-nav button{
-margin: .2rem 1vw;
-color:#222;
-font-size: 2rem;
-}  
+  box-shadow: 0 0 30px rgba(0, 0, 0, 40);
+  border-radius:30px; 
+}
 nav{
-  background-color:#eee ;
+  background-color:black;
 }
-nav ul{
-list-style-type:none; 
-padding:0;
-margin:0;
-}
+nav ul {
+  display:flex;
+  padding:8px;
+  justify-content:center;
+  list-style-type:none;
+  }
 nav ul li a{
-display: block;
-text-decoration:none;
-padding: .8rem 1vw;
-color: #333;
-border-top: 1px solid rgba(0,0,0,0.5);
+  text-decoration:none;
+  color: grey;
 }
 nav ul li a:hover{
-background-color:rgba(0,0,0,0.3);
+  color:black;
+  background-color:grey;
 }
-.responsive li{
-         display: block;
+nav ul li{
+  padding:15px;
 }
 p{
-     color:white;
-     margin-left: 20px;
-}
+  color: black;
+  margin-left: 20px;
+ }
 h2{
-     color:grey;
+  color:grey;
+  margin-left:270px
+}
+h3{
+  width: 250px;
+  margin-left:10px;
 }
 .presto{
-     margin: 0 auto;
-     width: 200px;
-     height: 100px;
-   }
+  margin-left: 267px;
+  width: 800px;
+  height:450px;
+      }
 .forest{
-         width: 300px;
-         margin-left: 2px;
-         background-color:grey ;
-         height:50px;
-       }          
+  display:flex;
+  width: 783px;
+  margin-left: 267px;
+  background-color: rgba(0,0,0,0.1)  ;
+  height:50px;
+  border: 1px solid;
+  padding:5px
+          }  
+.Mon{
+  padding:15px;
+  background:black;
+  margin-right: 83px; ;
+  width:60px;
+  margin-right: 83px; 
+  color:white;
+}
+.Tus{
+  padding:15px;
+  background:black;
+  width:60px;
+  margin-right: 83px;   
+  color:white;
+}
+.Whe{
+  padding:15px;
+  background:black;
+  width:60px;
+  margin-right: 83px;  
+  color:white;
+}
+.Thu{
+  padding:15px;
+  background:black;
+  width:60px;
+  margin-right: 83px; 
+  color:white;
+}
+.Fri{
+  padding:15px;
+  background:black;
+  width:60px; 
+  color:white;
+}
 .forest1{
-         width: 300px;
-         margin-left: 2px;
-         background-color:grey ;
-         height:50px;
-       }
+  display: grid;
+  grid-template-columns: 1fr 1fr ;  
+  grid-template-row: 1fr 1fr ;
+   width: 800px;
+   margin-left: 267px;
+   background-color: rgba(0,0,0,0.1);
+   height:50px; 
+   border: 1px solid;
+   height:200px;
+          }
+.article{
+  color:black;
+  margin:50px 5px 0px 10px;
+  width: 400px;
+  grid-colum: 1/2;
+  grid-row:2/2;
+  position: absolute;
+}
+.new{
+  position:relative;
+  left:130px;
+  height:150px;
+  margin:10px;
+}
 .forest2{
-         width: 300px;
-         margin-left: 2px;
-         background-color:grey ;
-         height:50px;
-       }
+    width: 1337px;
+    margin: 0px 0px 0px 0px;
+    background-color:black;
+    height:40px;
+          }
+.forest2 ul{
+  display:flex;
+  justify-content:center;
+}
+.forest2 ul li a{
+   padding-right: 290px;
+}
 .footer{
-         background-color:grey ;
-         display:block;
-         width: 500px;
-       }
+    background-color:grey ;
+    display:flex;
+    width: 1337px;
+          }
 .red{
-        padding: 0px 0px 
-       }
+    padding: 0px 0px 
+          }
 .red ul{
-         padding: 40px;
-         display:flex;
-       }
-.red ul a{
-         padding: 20px;
-         text-decoration:none;
-         color:white;
-       }
+    padding: 40px;
+    display:flex;
+  list-style:none;
+          }
+.red ul li a{
+     padding: 10px;
+     text-decoration:none;
+     color:black;
+          }
 .red a:hover{
-         background-color:black ;
-         color:grey;
-       }
+     background-color:black ;
+     color:grey;
+          }
 .BYU{
-         color:white;
-         text-decoration:none;
-          margin-top: 5px;
-       }
+      color:black;
+      text-decoration:none;
+      margin: 57px 0 0 450px;
+          }
+.ctac ul{
+  list-style:none;
+  margin-top:57px
+}
+.ctac ul li a{
+  color:black;
+}
+
 .comte{
-         color:white;
-         padding: 25px;
-       }
+   color:black;
+   margin-left: 280px;
+}
