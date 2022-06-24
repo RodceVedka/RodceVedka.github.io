@@ -165,3 +165,103 @@ h3{
    color:black;
    margin-left: 280px;
 }
+@media only screen and (max-width: 600px) {
+  .logo{
+    width: 150px;
+  }
+  h2{
+    margin-left: 0px;
+  }
+  nav{
+    width: auto;
+  }
+  nav ul{
+    display: block;
+  }
+  .presto{
+    width: 260px;
+    height: auto;
+    margin-left: 0px;
+  }
+  .comte{
+    margin-left: 0px;
+  }
+  .comte1{
+    margin-top: 20px;
+    margin-left: 0px;
+  }
+  .forest{
+    display: block;
+    width: 90px;
+    height: 240px;
+    margin-left: 60px;
+    padding: 2px;
+  }
+  h3{
+    margin-left: 10px;
+  }
+ .forest1{
+    display: block;
+    margin-left: 0px;
+    width: 300px;
+    height: 500px;
+ }
+.article{
+  width: 200px;
+  margin-left: 10px;
+}
+.new{
+  width: 200px;
+  margin-left: 10px;
+  position: static;
+  margin-top: 250px;
+}
+.footer{
+  display:block;
+  width: 305px;
+}
+.red{
+  margin-left: 0px;
+}
+.red ul{
+  padding: 5px;
+}
+.ctac ul{
+  margin: 30px 0px 0px 10px;
+}
+.forest2{
+  width: 305px;
+  height: 40px;
+  margin-left: 1px;
+}
+.forest2 ul{
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  list-style: none;
+}
+.forest2 ul li a{
+  padding: 20px;
+  text-decoration: none;
+}
+.forest2 ul li a:hover{
+  background-color: grey;
+  color: aliceblue;
+}
+
+
+
+
+}
+@media only screen and (max-width: 400px) {
+  header{
+    display: block;
+  }
+  nav{
+    display: none;
+  }
+  .logo{
+    width: 150px;
+    margin-left: 40px;
+  }
+}
