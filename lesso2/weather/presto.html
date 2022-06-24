@@ -5,10 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="presto.css">
+    <link rel="stylesheet" href="prac.css">
     <link rel="stylesheet" href="medium.css">
     <link rel="stylesheet" href="small.css">
-    <title>PrestonWeather</title>
+    <title>Practice</title>
 </head>
 <body>
     <header>
@@ -20,7 +20,8 @@
       
     </header>
 <nav>
-   <ul class="navigation">
+  <button id="hamurgerBtn"><span>&#9776;</span><span>X</span></button>
+   <ul id="primaryNav">
       <li><a href="#">Menu</a></li>
       <li><a href="#">Home</a></li>
       <li><a href="#">Preston</a></li>
@@ -30,21 +31,20 @@
       <li><a href="#">Gallery</a></li>
     </ul>
 </nav>
-      <main>
+<main>
       <h2><i>Preston Idaho</i></h2>
-      <div>
-        <img class="presto" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLk9IIvpJHgBlQBYuvc
- JgEQhGBJdf7dmqQ8RDuj4zz1fzrylzMbcppmpNBBWXAuoa_nLo&usqp=CAU" width="800" height = "300px" alt="photo">
-      </div>
+    <div>
+        <img class="presto" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLk9IIvpJHgBlQBYuvcJgEQhGBJdf7dmqQ8RDuj4zz1fzrylzMbcppmpNBBWXAuoa_nLo&usqp=CAU" width="800" height = "300px" alt="photo">
+    </div>
         <p class="comte"><b><i>5 days Forestacast</i></b></p>
-      <div class="forest">
+    <div class="forest">
         <div class="Mon">Mon</div>
         <div class="Tus">Tus</div>
         <div class="Whe">Whe</div>
         <div class="Thu">Thu</div>
         <div class="Fri">Fri</div>
-      </div> 
-        <p class="comte"><b><i>Article</i></b></p>
+    </div> 
+        <p class="comte1"><b><i>Article</i></b></p>
     <div class="forest1">
         <h3>Big Storm</h3>
         <p class="article">Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
@@ -76,6 +76,14 @@
          const d = "Last Updated"+":" + new Date();
            document.getElementById("demo").innerHTML = d;  
        </script>
+       <script>
+            function toggleMenu(){
+              document.getElementById("primaryNav").classList.toggle("open");
+              document.getElementById("hamurgerBtn").classList.toggle("open");
+              }
+              const x = document.getElementById("hamurgerBtn")
+               x.onclick = toggleMenu;
+       </script>
     </footer>
       <div class="forest2">
         <ul>
@@ -88,3 +96,4 @@
   </main>
 </body>
 </html>
+

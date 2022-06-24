@@ -10,6 +10,10 @@ header{
 nav{
   background-color:black;
 }
+ button{
+  background-color: black;
+  border: none;
+}
 nav ul {
   display:flex;
   padding:8px;
@@ -155,7 +159,7 @@ h3{
           }
 .ctac ul{
   list-style:none;
-  margin-top:57px
+  margin-top:57px;
 }
 .ctac ul li a{
   color:black;
@@ -165,6 +169,11 @@ h3{
    color:black;
    margin-left: 280px;
 }
+.comte1{
+  color:black;
+  margin-left: 280px;
+}
+
 @media only screen and (max-width: 600px) {
   .logo{
     width: 150px;
@@ -253,15 +262,32 @@ h3{
 
 
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 450px) {
   header{
     display: block;
+    width: 260px;
   }
-  nav{
+ button{
+  border: none;
+  background-color: white;
+ }
+ nav{
+  background-color:white;
+ }
+  nav ul{
     display: none;
+  }
+  nav ul.open{
+    display: block;
   }
   .logo{
     width: 150px;
     margin-left: 40px;
   }
+  #hamurgerBtn span:nth-child(1){display: block;}
+  #hamurgerBtn span:nth-child(2){display: none;}
+
+  #hamurgerBtn.open span:nth-child(1){display: none;}
+  #hamurgerBtn.open span:nth-child(2){display: block;}
+
 }
