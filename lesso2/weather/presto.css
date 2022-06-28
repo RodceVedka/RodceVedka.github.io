@@ -1,13 +1,39 @@
 header{
   display:flex;
   justify-content:center;
-  background-color: rgba(0,0,0,.70); 
+  background-color: rgb(240, 230, 230); 
+}
+header figure.Ppal{
+  width: 20%;
+}
+header figure.Ppal img{
+  width: 100%;
+}
+.Over{
+  position: absolute;
+  margin: 100px 200px 0px 300px;
+  width:300px;
+  height: 200px;
+  background-color:rgba(150, 0, 0,0.2);
+ }
+ .Wid{
+  padding: 10px 0px  0px 10px;
+  color: aliceblue;
+ }
+ 
+.px{
+  position: absolute;
+  padding: 40px 150px 300px 850px;
+  font-weight: bold;
+  font-size: 50px;
+  color:  green;
 }
 .logo{
   box-shadow: 0 0 30px rgba(0, 0, 0, 40);
   border-radius:30px; 
 }
 nav{
+
   background-color:black;
 }
  button{
@@ -17,7 +43,7 @@ nav{
 nav ul {
   display:flex;
   padding:8px;
-  justify-content:center;
+  justify-content: center;
   list-style-type:none;
   }
 nav ul li a{
@@ -35,6 +61,9 @@ p{
   color: black;
   margin-left: 20px;
  }
+ h1{
+  text-shadow: 0 0 20px rgba(0, 0, 0,40);
+ }
 h2{
   color:grey;
   margin-left:270px
@@ -44,7 +73,7 @@ h3{
   margin-left:10px;
 }
 .presto{
-  margin-left: 267px;
+  margin-left: 227px;
   width: 800px;
   height:450px;
       }
@@ -113,7 +142,7 @@ h3{
 }
 .new{
   position:relative;
-  left:130px;
+  left: 110px;
   height:150px;
   margin:10px;
 }
@@ -174,9 +203,22 @@ h3{
   margin-left: 280px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 730px) {
   .logo{
     width: 150px;
+  }
+  .Over{
+    position: absolute;
+    margin: 30px 0px 0px 0px;
+    width:200px;
+    height: 200px;
+    background-color:rgba(150, 0, 0,0.2);
+   }
+ .px1{
+      position: absolute;
+      font-weight: bold;
+      font-size: 50px;
+      color: green;
   }
   h2{
     margin-left: 0px;
@@ -184,12 +226,15 @@ h3{
   nav{
     width: auto;
   }
-  nav ul{
-    display: block;
+  nav ul {
+    display: flex;
   }
   .presto{
-    width: 260px;
+    width: 600px;
     height: auto;
+    margin-left: 0px;
+  }
+  .hero{
     margin-left: 0px;
   }
   .comte{
@@ -200,10 +245,10 @@ h3{
     margin-left: 0px;
   }
   .forest{
-    display: block;
-    width: 90px;
-    height: 240px;
-    margin-left: 60px;
+    display: flex;
+    width: 595px;
+    height: 40px;
+    margin-left: 0px;
     padding: 2px;
   }
   h3{
@@ -212,34 +257,42 @@ h3{
  .forest1{
     display: block;
     margin-left: 0px;
-    width: 300px;
+    width: 600px;
     height: 500px;
  }
+ .forest .Mon, .Tus, .Whe, .Thu ,.Fri{
+  width: 90px;
+  height: 5px;
+  font-size: 20px;
+  margin: 1.9px;
+}
 .article{
   width: 200px;
   margin-left: 10px;
 }
 .new{
   width: 200px;
-  margin-left: 10px;
-  position: static;
-  margin-top: 250px;
+  float: right;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 40);
+}
+.lasto{
+  margin:65px  130px   auto 100px;
 }
 .footer{
   display:block;
-  width: 305px;
+  width: 605px;
 }
 .red{
   margin-left: 0px;
 }
-.red ul{
-  padding: 5px;
+.red ul li a{
+  padding: 0px 20px 10px 50px;
 }
 .ctac ul{
   margin: 30px 0px 0px 10px;
 }
 .forest2{
-  width: 305px;
+  width: 605px;
   height: 40px;
   margin-left: 1px;
 }
@@ -262,14 +315,33 @@ h3{
 
 
 }
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 350px) {
   header{
     display: block;
-    width: 260px;
+    width: 200px;
+  }
+  .Over{
+    position: absolute;
+    margin: 100px 200px 0px 300px;
+    width:90px;
+    height: 90px;
+    background-color:rgba(150, 0, 0,0.2);
+    font-size: 50px;
+   }
+  header figure.Ppal{
+    width: 40%;
+    margin-left: 0px;
   }
  button{
   border: none;
   background-color: white;
+ }
+ h2{
+  margin-left: 0px;
+ }
+ h1{
+  font-size: 25px;
+  text-shadow: 0 0 10px rgba(0, 0, 0,40);
  }
  nav{
   background-color:white;
@@ -281,8 +353,62 @@ h3{
     display: block;
   }
   .logo{
-    width: 150px;
+    width: 250px;
     margin-left: 40px;
+  }
+  .presto{
+    width: 200px;
+    height: auto;
+    margin-left: 0px;
+  }
+  .footer{
+    width:205px;
+  }
+  .forest{
+    display: flex;
+    padding: 1px;
+    width: 196px;
+    margin: 0px;
+    height: 32px;
+  }
+  .forest .Mon, .Tus, .Whe, .Thu ,.Fri{
+    width: 5px;
+    height: 0px;
+    font-size: 10px;
+    margin: 1.9px;
+  }
+  .forest1{
+    display: block;
+    margin-left: 0px;
+    width: 200px;
+    height: 500px;
+  }
+  .forest1 last figure.lasto{
+    width: 100%;
+
+  }
+  .forest1 figure.lasto img{
+     width: 100%;
+     margin-left: 0px;
+     
+  }
+  .red ul{
+    display: block;
+    padding: 1px;
+  }
+  .forest2{
+    width: 205px;
+    height: 40px;
+    margin-left: 1px;
+  }
+  .forest2 ul li a{
+    padding: 5px;
+    text-decoration: none;
+    color:white;
+  }
+  .forest2 ul li a:hover{
+    background-color: grey;
+    color: black;
   }
   #hamurgerBtn span:nth-child(1){display: block;}
   #hamurgerBtn span:nth-child(2){display: none;}
