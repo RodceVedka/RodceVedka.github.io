@@ -1,0 +1,33 @@
+body{
+    background: lightblue;
+}
+.load{
+    display: block;
+}
+.images{
+    display: block;
+    margin-left: 400px;
+}
+h1{
+    margin-left: 400px;
+}
+.photo1 img{
+    width:300px;
+    height: 400px;
+}
+.photo2 img{
+    width:300px;
+    height: 400px;
+}
+.photo3 img{
+    width:300px;
+    height: 400px;
+}
+.photo4 img{
+    width:300px;
+    height: 400px;
+}
+.photo5 img{
+    width:300px;
+    height: 400px;
+}
