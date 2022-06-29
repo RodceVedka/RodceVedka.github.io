@@ -1,8 +1,9 @@
+
+/* provide information about */
 let imagesToLoad = document.querySelectorAll('img[data-src]');
 let srcToLoad = document.querySelectorAll('source[data-src]');
-let options = {
-    threshold: .25
-}
+let options = {threshold: .25};
+
 
 const loadImages = (image) => {
     image.setAttribute('src', image.getAttribute('data-src'));
@@ -50,4 +51,4 @@ if('IntersectionObserver' in window) {
     srcToLoad.forEach((img) => {
         loadImages(img);
     });
-    }   
+    }
