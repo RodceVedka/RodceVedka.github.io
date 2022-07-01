@@ -7,7 +7,7 @@ const loadImages = (image) => {
 };
 
 const imageOption = {
-    threshold: 2, 
+    threshold: 5, 
     rootMargin: "0px 0px -10px 0px",
 }
 imagesToLoad.forEach((img)=>{
@@ -16,7 +16,7 @@ imagesToLoad.forEach((img)=>{
 
 
 if('IntersectionObserver' in window) {
-    const observer = new IntersectionObserver((items, observer) => {
+    const observer = new IntersectionObserver((items, server) => {
       items.forEach((item) => {
         if(item.isIntersecting) {
           loadImages(item.target);
@@ -32,5 +32,4 @@ if('IntersectionObserver' in window) {
       loadImages(img);
     });
   }
-
-  console.log("hello");
+   
