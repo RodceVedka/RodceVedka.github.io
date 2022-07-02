@@ -1,0 +1,224 @@
+header{
+    display:flex;
+    justify-content:center;
+    background-color: rgb(240, 230, 230); 
+  }
+  header figure.Ppal{
+    width: 20%;
+  }
+  header figure.Ppal img{
+    width: 100%;
+  }
+  .Over{
+    position: absolute;
+    margin: 100px 200px 0px 300px;
+    width:300px;
+    height: 200px;
+    background-color:rgba(150, 0, 0,0.2);
+   }
+   .Wid{
+    padding: 10px 0px  0px 10px;
+    color: aliceblue;
+   }
+   
+  .px{
+    position: absolute;
+    padding: 40px 150px 300px 850px;
+    font-weight: bold;
+    font-size: 50px;
+    color:  green;
+  }
+  .logo{
+    box-shadow: 0 0 30px rgba(0, 0, 0, 40);
+    border-radius:30px; 
+  }
+  nav{
+  
+    background-color:black;
+  }
+   button{
+    background-color: black;
+    border: none;
+  }
+  nav ul {
+    display:flex;
+    padding:8px;
+    justify-content: center;
+    list-style-type:none;
+    }
+  nav ul li a{
+    text-decoration:none;
+    color: grey;
+  }
+  nav ul li a:hover{
+    color:black;
+    background-color:grey;
+  }
+  nav ul li{
+    padding:15px;
+  }
+  
+ 
+  
+  @media only screen and (max-width: 730px) {
+    .logo{
+      width: 150px;
+    }
+    .Over{
+      position: absolute;
+      margin: 30px 0px 0px 0px;
+      width:200px;
+      height: 200px;
+      background-color:rgba(150, 0, 0,0.2);
+     }
+   .px1{
+        position: absolute;
+        font-weight: bold;
+        font-size: 50px;
+        color: green;
+    }
+    h2{
+      margin-left: 0px;
+    }
+    nav{
+      width: auto;
+    }
+    nav ul {
+      display: flex;
+    }
+    .presto{
+      width: 600px;
+      height: auto;
+      margin-left: 0px;
+    }
+    .hero{
+      margin-left: 0px;
+    }
+    .comte{
+      margin-left: 0px;
+    }
+    .comte1{
+      margin-top: 20px;
+      margin-left: 0px;
+    }
+    .forest{
+      display: flex;
+      width: 595px;
+      height: 40px;
+      margin-left: 0px;
+      padding: 2px;
+    }
+    h3{
+      margin-left: 10px;
+    }
+   .forest1{
+      display: block;
+      margin-left: 0px;
+      width: 600px;
+      height: 500px;
+   }
+   .forest .Mon, .Tus, .Whe, .Thu ,.Fri{
+    width: 90px;
+    height: 5px;
+    font-size: 20px;
+    margin: 1.9px;
+  }
+  .article{
+    width: 200px;
+    margin-left: 10px;
+  }
+  .new{
+    width: 200px;
+    float: right;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 40);
+  }
+  .lasto{
+    margin:65px  130px   auto 100px;
+  }
+  .footer{
+    display:block;
+    width: 605px;
+  }
+  .red{
+    margin-left: 0px;
+  }
+  .red ul li a{
+    padding: 0px 20px 10px 50px;
+  }
+  .ctac ul{
+    margin: 30px 0px 0px 10px;
+  }
+  .forest2{
+    width: 605px;
+    height: 40px;
+    margin-left: 1px;
+  }
+  .forest2 ul{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    list-style: none;
+  }
+  .forest2 ul li a{
+    padding: 20px;
+    text-decoration: none;
+  }
+  .forest2 ul li a:hover{
+    background-color: grey;
+    color: aliceblue;
+  }
+  
+  
+  
+  
+  }
+  @media only screen and (max-width: 350px) {
+    header{
+      display: block;
+      width: 200px;
+    }
+    .Over{
+      position: absolute;
+      margin: 100px 200px 0px 300px;
+      width:90px;
+      height: 90px;
+      background-color:rgba(150, 0, 0,0.2);
+      font-size: 50px;
+     }
+    header figure.Ppal{
+      width: 40%;
+      margin-left: 0px;
+    }
+   button{
+    border: none;
+    background-color: white;
+   }
+   h2{
+    margin-left: 0px;
+   }
+   h1{
+    font-size: 25px;
+    text-shadow: 0 0 10px rgba(0, 0, 0,40);
+   }
+   nav{
+    background-color:white;
+   }
+    nav ul{
+      display: none;
+    }
+    nav ul.open{
+      display: block;
+    }
+    .logo{
+      width: 250px;
+      margin-left: 40px;
+    }
+    .presto{
+      width: 200px;
+      height: auto;
+      margin-left: 0px;
+    }
+    .footer{
+      width:205px;
+    }
+  
