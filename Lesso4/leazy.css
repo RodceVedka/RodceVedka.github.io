@@ -11,14 +11,14 @@ body{
 h1{
     margin-left: 440px;
 }
- img{
+img{
     width:300px;
     height: 400px;
 }
 img[data-src]{
-    filter: blur(0.2em);
+    filter: blur(0.4em);
 }
 img{
     filter:blur(0em);
-    transition: filter 0.5s;
+    transition: filter 3s;
 }
