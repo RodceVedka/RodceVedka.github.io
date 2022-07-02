@@ -1,0 +1,63 @@
+@media only screen and (max-width: 350px) {
+    header figure.Ppal{
+        width: 60%;
+      }
+    .pictures ul li img{
+        width: 160px;
+        margin-left: 0px;
+      }
+      .pictures ul li{
+        margin-left: 0px;
+      }
+    .pictures{
+        width: 400px;
+        margin: auto;
+        box-shadow:  0 0 30px rgba(0, 0, 0, 40);
+      }
+
+   
+    header{
+      display: block;
+      width: 200px;
+    }
+    .DG{
+        display: grid;
+        grid-template-columns: 1fr  ;
+        box-shadow:  0 0 30px rgba(0, 0, 0, 40);
+       
+      }
+    .Over{
+      position: absolute;
+      margin: 100px 200px 0px 300px;
+      width:90px;
+      height: 90px;
+      background-color:rgba(150, 0, 0,0.2);
+      font-size: 50px;
+     }
+  
+   button{
+    border: none;
+    background-color: white;
+   }
+   h2{
+    margin-left: 0px;
+   }
+   h1{
+    font-size: 25px;
+    text-shadow: 0 0 10px rgba(0, 0, 0,40);
+   }
+   nav{
+    background-color:white;
+   }
+    nav ul{
+      display: none;
+    }
+    nav ul.open{
+      display: block;
+    }
+    .logo{
+      width: 250px;
+      height: 150px;
+      margin-left: 30px;
+    }
+}

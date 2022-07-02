@@ -1,0 +1,43 @@
+
+  
+  @media only screen and (max-width: 800px) {
+    .pictures ul li img{
+        width: 200px;
+      }
+    .pictures{
+        width: 600px;
+        margin: auto;
+        box-shadow:  0 0 30px rgba(0, 0, 0, 40);
+      }
+
+    header figure.Ppal{
+        width: 30%;
+      }
+    .Over{
+      position: absolute;
+      margin: 30px 0px 0px 0px;
+      width:200px;
+      height: 200px;
+      background-color:rgba(150, 0, 0,0.2);
+     }
+   .px1{
+        position: absolute;
+        font-weight: bold;
+        font-size: 50px;
+        color: green;
+    }
+    h2{
+      margin-left: 0px;
+    }
+    nav{
+      width: auto;
+    }
+    nav ul {
+      display: flex;
+    }
+    .DG{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        box-shadow:  0 0 30px rgba(0, 0, 0, 40);
+      }
+    
