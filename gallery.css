@@ -4,7 +4,7 @@ header{
     background-color: rgb(240, 230, 230); 
   }
   header figure.Ppal{
-    width: 20%;
+    width: 15%;
   }
   header figure.Ppal img{
     width: 100%;
@@ -57,8 +57,48 @@ header{
   nav ul li{
     padding:15px;
   }
+
+
+
+  body{
+    background-color: rgb(240, 230, 230); 
+  }
+  .pictures{
+    width: 1200px;
+    background:url(https://images.unsplash.com/photo-1518803194621-27188ba362c9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=874&q=80);
+    margin: auto;
+    box-shadow:  0 0 30px rgba(0, 0, 0, 40);
+  }
+  .pictures ul li img:hover{
+    box-shadow:  0 0 30px rgba(0, 0, 0, 40);
+  }
+  .HG{   
+    margin: auto auto 0px 78px;
+    color: whitesmoke;
+  }
+  .DG{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    box-shadow:  0 0 30px rgba(0, 0, 0, 40);
+  }
+  
+  ul li{
+    list-style-type: none;
+  }
+  img{
+    width: 280px;
+    height: 200px;
+  }
   
  
+
+
+
+
+
+
+
+
   
   @media only screen and (max-width: 730px) {
     .logo{
