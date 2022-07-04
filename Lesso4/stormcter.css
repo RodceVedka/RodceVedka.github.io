@@ -63,6 +63,30 @@ header{
 
   /*----------------------Storm Center----------------------------*/
 
+  .fiel1{
+    padding: 20px 10px 20px 10px;
+    margin-bottom: 30px;
+  }
+  .fiel2{
+    padding: 20px;
+  }
+  .top{
+    padding: 5px;
+  }
+  .flexly{
+    padding-right: 10px;
+  }
+  header figure.Ppal{
+    width: 50%;
+  } 
+  nav ul {
+    display: block;
+    padding:8px;
+    justify-content: center;
+    list-style-type:none;
+    }
+
+
   .textarea{
-    width: 800px;
+    width: 500px;
   }

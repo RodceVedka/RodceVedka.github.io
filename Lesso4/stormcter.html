@@ -38,7 +38,7 @@
 <main>
     <h1>Storm Center Reporting Event</h1>
              <form method="get"  action="thanks.html">
-                <fieldset>
+                <fieldset class="fiel1">
                     <legend>User Information</legend>
                    <label class="top">First name*<input type="text" name="fname" required></label>
                    <label class="top">Last name*<input type="text" name="lname" required></label>
@@ -46,7 +46,7 @@
                    <label class="top">Email*<input type="email" name="email" placeholder="e.g: placeholder@gmail.com" ></label>
                    <label class="top">Zip code<input type="number" name="number" placeholder="e.g: 3081"></label>
                 </fieldset>
-                <fieldset>
+                <fieldset class="fiel2">
                     <legend>Storm Information</legend>
                     <label class="top">Date*<input type="date" name="Sdate" required></label>
                     <label class="top">Storm Type<select name="Subject">
@@ -76,8 +76,8 @@
                         <option value="9">
                         <option value="10">
                     </datalist>                    
-                    <label class="top">Storm Region<select name="Subject">
-                          <option value="">Please Select Region</option>  
+                    <label class="top1">Storm Region<select name="Subject">
+                          <option value="">Select Region</option>  
                           <option value="software">Preston</option>
                           <option value="creative">Soda Springs</option>
                           <option value="info">Fish</option>
@@ -86,7 +86,7 @@
                         </select>
                     </label>
                     <div class="selection">
-                        <label class="top">User in-danger level</label>
+                        <label class="top3">User in-danger level</label>
                         <input type="radio" name="time" id="time1" value="8" checked>
                         <label for="time1">Yes</label>
                         <input type="radio" name="time" id="time2" value="9">

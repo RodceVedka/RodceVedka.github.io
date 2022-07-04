@@ -1,6 +1,9 @@
 @media only screen and (max-width: 800px){
- fieldset{
-    display: block;
+ .fiel1 label{
+ display: block;
+ }
+ .fiel2 label{
+display: block;
  }
 
 }
