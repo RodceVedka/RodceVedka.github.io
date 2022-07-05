@@ -1,0 +1,27 @@
+
+body{
+    background-color: grey;
+    
+}
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    box-shadow: rgba(0, 0, 0, .1);
+    border: 1px solid black;
+}
+h1{
+    color: blue;
+    margin-left: 400px;
+    text-shadow: rgba(0, 0, 0, .1); 
+}
+h2{
+    color: blue;
+    box-shadow: rgba(0, 0, 0, .1);
+}
+img{
+    background-color: rgba(0,0,0,0.9);
+    border: 3px solid black;
+}
+.pro{
+    color:blue;
+}
