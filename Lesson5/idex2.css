@@ -1,0 +1,131 @@
+body{
+    background-image: url(https://p0.pikist.com/photos/649/225/storm-clouds-clouds-thunderstorm-grey-sky-gloomy-storm-end-of-the-world-weltuntergang-humor.jpg );
+}
+nav {
+	background-color: #36454f;
+	margin: 0 auto;
+	max-width: 900px;
+	box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
+    
+}
+nav ul {
+	list-style-type: none;
+	overflow: hidden;
+    display: flex;
+    
+}
+nav ul li a {
+	display: flex;
+	color: #fff;
+    text-decoration: none;
+    padding: 20px;
+	
+}
+.logo{
+    margin-top: 50px;
+    margin-left: 60px;
+}
+.log{
+    display: flex;
+  background-color: rgba(0,0,0,.70);
+	margin: 0 auto;
+	max-width: 900px;
+	box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
+  padding-bottom: 40px;
+  
+}
+h1{
+    margin-left: 30px;
+    margin-top: 70px;
+    color: #fff;
+}
+h2{
+    color: #fff;
+    margin-left: 55px;
+}
+.desc{
+    max-width: 900px;
+    margin-left: 215px;
+    background: #36454f;
+}
+.por{
+    margin-left: 55px ;
+    color:#fff ;
+    margin-top: 5px;
+}
+.sceario{
+    text-decoration: none;
+    color: #fff;
+    margin-left: 60px;
+    font-size: 25px;
+}
+.palette{
+     display: flex;
+  background-color: rgba(0,0,0,.70);
+	margin: 0 auto;
+	max-width: 900px;
+	box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
+}
+.palette a{
+  text-decoration: none;
+  color:white;
+   font-size: 25px;
+}
+.color{
+    max-width: 900px;
+    margin: 0 auto;
+    background: #36454f;
+}
+.color2{
+    max-width: 900px;
+    margin: 0 auto;
+    background: grey;
+}
+.color3{
+    max-width: 900px;
+    margin: 0 auto;
+    background: #fff;
+}
+.red{
+    max-width: 900px;
+    margin: 0 auto;
+    background: grey;
+}
+.footer ul a{
+    text-decoration: none;
+    color: #fff;
+    padding: 30px;
+}
+.footer ul {
+	list-style-type: none;
+	overflow: hidden;
+    display: flex;
+}
+.BYU{
+    color: #fff;
+    text-decoration: none;
+}
+.tipo{
+     display: flex;
+  background-color: rgba(0,0,0,.70);
+	margin: 0 auto;
+	max-width: 900px;
+	box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
+}
+.tipo a{
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+}
+.host{
+    float:bottom;
+    color:#36454f;
+    margin-left: 400px;
+    font-size: 20px;
+    animation: mymove 5s infinite;
+    width: 508px;
+  }
+  @keyframes mymove {
+      from {background-color:#36454f;}
+      to {background-color:rgba(0,0,0,.70);}
+    }
