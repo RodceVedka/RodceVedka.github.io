@@ -43,49 +43,7 @@ h2{
     color: #fff;
     margin-left: 55px;
 }
-.desc{
-    max-width: 900px;
-    margin-left: 215px;
-    background: #36454f;
-}
-.por{
-    margin-left: 55px ;
-    color:#fff ;
-    margin-top: 5px;
-}
-.sceario{
-    text-decoration: none;
-    color: #fff;
-    margin-left: 60px;
-    font-size: 25px;
-}
-.palette{
-     display: flex;
-  background-color: rgba(0,0,0,.70);
-	margin: 0 auto;
-	max-width: 900px;
-	box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
-}
-.palette a{
-  text-decoration: none;
-  color:white;
-   font-size: 25px;
-}
-.color{
-    max-width: 900px;
-    margin: 0 auto;
-    background: #36454f;
-}
-.color2{
-    max-width: 900px;
-    margin: 0 auto;
-    background: grey;
-}
-.color3{
-    max-width: 900px;
-    margin: 0 auto;
-    background: #fff;
-}
+
 .red{
     max-width: 900px;
     margin: 0 auto;
