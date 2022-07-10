@@ -1,12 +1,9 @@
 
-const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
+
+
+const requestURL = "http://api.openweathermap.org/data/2.5/weather?q=London,uk&APPID=f3790089fa20b68e0c49e47aa204417b";
 
 fetch(requestURL)
-    .then(function (response) {return response.json(); })
-    .then(function (jsonObject) {
-        console.table(jsonObject);  // temporary checking for valid response and data parsing
-       const towns = jsonObject['towns'];
-        console.log(towns)
-       
-    }
-    );
+    .then((response)=> response.json())
+    .then((jsonObject)=>{
+         console.log(jsonObject);})
