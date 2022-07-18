@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="PrestoWaether.css">
+    
+    <title>PrestoWeather</title>
+</head>
+<body>
+    <header>
+        <figure class="Ppal">
+
+             <img class="logo"src="https://www.diariopopular.com.ar/mrf4u/statics/i/ps/media.diariopopular.com.ar/p/c191e6ee920a7370cc308d64262615e3/adjuntos/143/imagenes/004/930/0004930093/foto-nota-climajpg.jpg"  alt= "photo">
+ 
+        </figure>
+        <div>
+             <h1><i>The Weather site<br></i></h1>
+             <p><b><i>Always save with us</i></b></p>
+       </div>
+      
+    </header>
+<nav>
+  <button id="hamurgerBtn"><span>&#9776;</span><span>X</span></button>
+   <ul id="primaryNav">
+      <li><a href="#">Menu</a></li>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Preston</a></li>
+      <li><a href="#">Soda Springs</a></li>
+      <li><a href="#">Fish Haven</a></li>
+      <li><a href="#">Storm Center</a></li>
+      <li><a href="#">Gallery</a></li>
+    </ul>
+</nav>
+<main>
+      <h2><i>Preston Idaho</i></h2>
+    
+         <p class="px">Large</p>       
+
+         <section class="Over transition">
+			<h2 class="Over2">Weather Summary</h2>
+			    <p>Currently: <span id="fial"></span></p</p>
+                <p>High:<span id="fial5"></span>&deg;F</p</p>
+		     	<p>Wind Chill: <span id="fial2">°F</span></p>
+		    	<p>Humidity:<span id="fial3"></span></p>
+		    	<p>Wind Speed:<span id="fial4"></span></p>
+		</section>
+
+     <figure class="hero">
+        <img class="presto" src="Origi.jpg"  alt="photo">
+
+     </figure>                                                                                                                                                                                           
+    
+        <p class="comte"><b><i>5 days Forestacast</i></b></p>
+        <div class="forest">
+              <div class="Mon">Mon</div>
+              <div class="Mon1">Test1</div>
+              <div class="Tus">Tus</div>
+              <div class="Mon2">Test2</div>
+              <div class="Whe">Whe</div>
+              <div class="Mon3">Test3</div>
+              <div class="Thu">Thu</div>
+              <div class="Mon4">Test4</div>
+              <div class="Fri">Fri</div>
+              <div class="Mon5">Test5</div>
+        </div> 
+        <p class="comte1"><b><i>Article</i></b></p>
+    <div class="forest1">
+        <h3>Big Storm</h3>
+       <p class="article">Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    Sint cum suscipit aut corporis cupiditate nulla architecto repellendus.Ipsum dolor sit, amet consectetur adipisicing elit. 
+                    Sint cum suscipit aut corporis cupiditate nulla architecto repellendus. </p>
+        <div class="last">
+          <figure class="lasto">
+             <img class="new" src="https://static.educalingo.com/img/en/800/storm.jpg" alt="photo">
+          </figure>
+        </div>
+    </div> 
+    <footer class="footer">
+      <div class="red">
+         <ul>
+            <li><a href="https://goo.gl/maps/53NRFNym69jAvmto6" target="_blank">location</a></li>
+            <li><a href="#">Faceook</a></li>
+            <li><a href="#">Istagram</a></li>
+            <li><a href="#">Twitter</a></li>
+        </ul>
+      </div>
+      <div class="ctac">
+        <ul>
+          <li>Contact:</li>
+          <li>rodce.4@gmail.com</li>
+          <li>WhatsApp 78969857</li>
+        </ul>
+      </div>
+      <a class="BYU" href="https://www.byui.edu/online" target="_blank">© 2022 | César  Rodríguez | Costa Rica |<b>BYU-I Online Learning</b></a>
+       <p id="demo"></p>
+       <script>
+         const d = "Last Updated"+":" + new Date();
+           document.getElementById("demo").innerHTML = d;  
+       </script>
+       <script>
+            function toggleMenu(){
+              document.getElementById("primaryNav").classList.toggle("open");
+              document.getElementById("hamurgerBtn").classList.toggle("open");
+              }
+              const x = document.getElementById("hamurgerBtn")
+               x.onclick = toggleMenu;
+       </script>
+    </footer>
+      <div class="forest2">
+        <ul>
+          <li><a href="#">Link</a></li>
+          <li><a href="#">Link</a></li>
+          <li><a href="#">Link</a></li>
+          <li><a href="#">Link</a></li>
+        </ul>           
+      </div> 
+  </main>
+  <script src="PrestoWeather.js"></script>
+</body>
+</html>

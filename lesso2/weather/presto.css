@@ -11,11 +11,25 @@ header figure.Ppal img{
 }
 .Over{
   position: absolute;
-  margin: 100px 200px 0px 300px;
-  width:300px;
-  height: 200px;
-  background-color:rgba(150, 0, 0,0.2);
+  margin: 30px 200px 0px 300px;
+  width:270px;
+  height: 170px;
+  background-color:rgba(23, 164, 44, 0.8);
+  padding: 2px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 40);
  }
+ .Over2{
+  margin: 10px 20px 0px 20px;
+  border-bottom: 1px solid grey;
+  color:white;
+ }
+ .Over p{
+  margin: 10px 0px 0px 45px;
+  color:white;
+ }
+#fial,#fial2,#fial3,#fial4{
+  color: yellow;
+}
  .Wid{
   padding: 10px 0px  0px 10px;
   color: aliceblue;
@@ -206,12 +220,26 @@ h3{
     width: 150px;
   }
   .Over{
-    position: absolute;
-    margin: 30px 0px 0px 0px;
-    width:200px;
-    height: 200px;
-    background-color:rgba(150, 0, 0,0.2);
-   }
+      position: absolute;
+      margin: 30px 0px 0px 20px;
+      width:250px;
+      height: 150px;
+      background-color:rgba(23, 164, 44, 0.8);
+      padding: 2px;
+      box-shadow: 0 0 30px rgba(0, 0, 0, 40);
+     }
+     .Over2{
+      margin: 5px 10px 0px 10px;
+      border-bottom: 1px solid grey;
+      color:white;
+     }
+     .Over p{
+      margin: 10px 0px 0px 30px;
+      color:white;
+     }
+    #fial,#fial2,#fial3,#fial4{
+      color: yellow;
+    }
  .px1{
       position: absolute;
       font-weight: bold;
@@ -319,13 +347,27 @@ h3{
     width: 200px;
   }
   .Over{
-    position: absolute;
-    margin: 100px 200px 0px 300px;
-    width:90px;
-    height: 90px;
-    background-color:rgba(150, 0, 0,0.2);
-    font-size: 50px;
-   }
+      position: absolute;
+      margin: 0px 0px 0px 00px;
+      width:196px;
+      height: 93px;
+      background-color:rgba(23, 164, 44, 0.8);
+      padding: 2px;
+      box-shadow: 0 0 30px rgba(0, 0, 0, 40);
+     }
+     .Over2{
+      margin: 0px 10px 0px 10px;
+      border-bottom: 1px solid grey;
+      color:white;
+     }
+     .Over p{
+      margin: 10px 0px 0px 30px;
+      color:white;
+      font-size: 8px;
+     }
+     .Over2{
+      font-size: 10px;
+     }
   header figure.Ppal{
     width: 40%;
     margin-left: 0px;
@@ -378,18 +420,19 @@ h3{
   .forest1{
     display: block;
     margin-left: 0px;
-    width: 200px;
-    height: 500px;
-  }
-  .forest1 last figure.lasto{
     width: 100%;
-
+    height: 100%px;
   }
-  .forest1 figure.lasto img{
+ 
+  .forest1 .last figure.lasto{
+    width: 80%;
+    margin-top: 270px;
+    margin-left: 0px;
+  }
+  .forest1 .last figure .new{
      width: 100%;
-     margin-left: 0px;
-     
-  }
+     margin-right: 95px;
+  }  
   .red ul{
     display: block;
     padding: 1px;
@@ -408,6 +451,7 @@ h3{
     background-color: grey;
     color: black;
   }
+  
   #hamurgerBtn span:nth-child(1){display: block;}
   #hamurgerBtn span:nth-child(2){display: none;}
 

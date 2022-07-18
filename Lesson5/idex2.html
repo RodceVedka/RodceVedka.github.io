@@ -14,14 +14,14 @@
             <img  class="logo" src="https://img2.freepng.es/20181112/efp/kisspng-logo-vector-graphics-image-wind-wave-circle-clipart-wave-82-124-free-circle-clipart-5be9323ccd9542.0168180315420094048421.jpg"  width="100" alt="logo">
              <h1>SosWeather<br>24 hours up date</br></h1>
          </div>
-         <p class="host">Possile Hostnames(WeakWeather-CostarWeather-SosWeather) </p>
+         <p class="host">Thanks for watching </p>
      <nav>
         <ul>
             <li><a href="#" class="active">Home</a></li>
             <li><a href="#">Preston</a></li>
-            <li><a href="#">Soda Springs</a></li>
-            <li><a href="#">Fish Haven</a></li>
-            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Soda S</a></li>
+            <li><a href="#">Fish H</a></li>
+            <li><a href="#">Storm C</a></li>
             <li><a href="#">Gallery</a></li>
         </ul>
      </nav>
@@ -29,7 +29,10 @@
     <h2>Towns report</h2>
     <main>
 
-        <div class="towns"></div>
+        <div class="towns">
+                              
+
+        </div>
         
     </main>
     <footer class="red">
@@ -53,5 +56,17 @@
 
     </footer>
     <script src="idex2.js"></script>
+    <script>
+        //Funcion para reacomodar la foto
+        function floatRight(x) {
+            if (x.matches) { // If media query matches
+            var imgs = document.querySelectorAll('.myImg');
+            imgs[1].className += ' right';
+            } 
+        }
+        var x = window.matchMedia("(max-width: 800px)")
+        floatRight(x) // Call listener function at run time
+        x.addListener(floatRight) // Attach listener function on state changes
+  </script>
 </body>
 </html>
