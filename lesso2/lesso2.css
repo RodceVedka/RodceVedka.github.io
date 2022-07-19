@@ -142,3 +142,62 @@ h2{
       from {background-color:#36454f;}
       to {background-color:rgba(0,0,0,.70);}
     }
+
+    @media only screen and (max-width: 600px){   
+        nav ul {
+            padding: 1px;
+                    }
+        nav ul li{
+            width: 45px;
+            padding-left: 0px;
+        }
+        nav ul li .active{
+            padding-left: 0px;
+        }
+        nav ul li .active2, .active3, .active4 ,.active5, .active6{
+            padding-left: 3px;
+        }
+        nav ul li .active3{
+            margin-left: 8px;
+        }
+        nav ul li .active4{
+            margin-left: 15px;
+        }
+        nav ul li .active5{
+            margin-left: 15px;
+        }
+        nav ul li .active6{
+            margin-left: 15px;
+        }
+        .host{
+            float:bottom;
+            color:#36454f;
+            margin-left: 0px;
+            font-size: 20px;
+            animation: mymove 5s infinite;
+            width: 298px;
+            box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
+          }
+          .log{
+            display: block;
+          }
+          .logo{
+            width: 190px;
+          }
+          .sectio{
+            margin-left: 0px;
+          }
+          .desc{
+            margin-left: 0px;
+          }
+          h2{
+            padding-left: 10px;
+          }
+          .footer ul{
+            margin-left: 0px;
+
+          }
+          .footer ul li a{
+            padding-left: 0px;
+          }
+    }
