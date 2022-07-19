@@ -1,0 +1,19 @@
+body{
+    background-color: grey;
+}
+.target{
+    margin-left: 500px;
+    margin-bottom: 50px;
+}
+.avi{
+    background-color:yellow;
+    color:black;
+}
+.WW{
+    background-color:blue;
+    color:black;
+}
+.Cattle{
+    background-color: red; 
+    color:black;
+}

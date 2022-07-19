@@ -56,8 +56,20 @@ h2{
 .sceario{
     text-decoration: none;
     color: #fff;
-    margin-left: 60px;
+    margin-left: 30px;
     font-size: 25px;
+}
+.sceario:hover{
+    color: blue;
+}
+.per{
+    text-decoration: none;
+    margin-left: 30px;
+    font-size: 25px;
+    color: #fff;
+}
+.per:hover{
+    color: blue;
 }
 .palette{
      display: flex;
@@ -70,6 +82,7 @@ h2{
   text-decoration: none;
   color:white;
    font-size: 25px;
+   padding-left: 55px;
 }
 .color{
     max-width: 900px;
