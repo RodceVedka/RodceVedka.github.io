@@ -1,0 +1,62 @@
+body{   
+        height:400px;
+        background-image: url("https://i.ytimg.com/vi/LKiqJJQcgCY/maxresdefault.jpg");
+        background-size: 50rem;
+        width:1350px;
+        height: 80%;      
+}
+ 
+nav {
+  background-color:rgba(23, 164, 44, 0.8);
+  line-height: 1em;
+  text-align: center;
+  font-size: 1em;
+  width: 1346px;
+  height: 30px;                          
+  margin-left: 0px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.1);
+  margin-top: 30px;
+}
+nav > ul {
+  list-style-type: none;
+  display: flex;
+  color: rgb(4, 42, 4);
+}
+
+nav a {
+  padding-right: 300px;
+  min-width: 70px;
+  text-decoration: none;
+}
+nav .a:hover{
+  color: rgb(30, 108, 136);
+}
+nav .b:hover{
+  color:rgb(30, 108, 136);
+}
+nav .c:hover{
+  color: rgb(30, 108, 136);
+}
+nav .d:hover{
+  color: rgb(30, 108, 136);
+}
+nav a:link, nav a:visited {
+  color: var(--nav-link-color);
+}
+nav a:hover {
+  color: var(--nav-hover-link-color);
+  background-color: var(--nav-hover-background-color);
+}
+article{
+    height: 100px;
+  }
+
+  h3{
+    margin-left:3px;
+    font-family:'Brush Script MT', cursive;
+    color: rgb(4, 42, 4);
+    background-color:rgba(23, 164, 44, 0.8);
+    border-radius: 20px;
+    padding-top: 0px;
+  }
