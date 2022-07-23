@@ -1,9 +1,78 @@
 @media only screen and (max-width: 400px){
 
     #logo1{
-        width: 300px;
-        box-shadow: 5px 5px 5px #999999;
+        width: 260px;
+        box-shadow: 0 0 30px rgba(0, 0, 0, 40);
         margin-top: 65px;
         height: 310px;
       }
+      nav {
+        background:rgb(50, 34, 34);
+        line-height: 3em;
+        text-align: center;
+        font-size: .9em;
+        width: 250px;
+        height: 10%;                          
+        grid-column: 2/4;
+        grid-row: 1/1;
+        margin-left: 0px;
+        position: absolute;
+        border-radius: 20px;
+        box-shadow: 0 0 30px rgba(0, 0, 0, 40);
+      }
+      nav a {
+        padding-right: 10px;
+        min-width: 70px;
+        text-decoration: none;
+        font-size: 10px;
+      }
+      .Pleft{
+        width:300px;
+        height: 350px;
+      }
+      .Adv{
+        margin-bottom: 20px;
+        margin-right: 80px;
+      }
+   .new{
+    height: 60px;
+   }
+   .rodce{
+    margin-left: 350px;
+   }
+   .pright{
+    padding-top: 80px;
+   }
+   .Bleft{
+    width:300px;
+   }
+   .nav2{
+    height: 40px;
+    width: 750px;
+    background-color:aliceblue;
+   }  
+   .nav2 ul{
+    height: 30px;
+    color: black;
+   }
+.nav2 ul li{
+    padding: 0px 15px 15px 0px;
+    margin:0px 85px 30px 0px;
+}
+footer{
+    display: flex;
+    margin-top: 65px;
+    height: 100px;
+    box-shadow: 5px 5px 5px #999999;
+}
+.Bright{
+    padding: 0px;
+}
+.Pright{
+    width: 340px;
+}
+.pBright{
+width: 50px;
+}
+}
 }

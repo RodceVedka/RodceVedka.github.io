@@ -1,5 +1,10 @@
 @media only screen and (max-width: 800px){
-
+    header{
+        width: 720px;
+    }
+    .logo{
+        width: 701px;
+    }
     #logo1{
         width: 700px;
         box-shadow: 5px 5px 5px #999999;
@@ -21,7 +26,7 @@
         box-shadow: rgba(0, 0, 0, 0.1);
       }
       nav a {
-        padding-right: 30px;
+        padding-right: 90px;
         min-width: 70px;
         text-decoration: none;
       }
@@ -31,10 +36,9 @@
       }
       .Adv{
         margin-bottom: 20px;
-        background-color: aqua;
+        margin-right: 80px;
       }
    .new{
-    background-color: red;
     height: 60px;
    }
    .rodce{
@@ -49,12 +53,29 @@
    .nav2{
     height: 40px;
     width: 750px;
-   }
+    background-color:aliceblue;
+   }  
    .nav2 ul{
-    text-align: center;
-    padding-bottom: 10px;
+    height: 30px;
+    color: black;
    }
-.nav2 ul li a{
-    padding: 60px;
+.nav2 ul li{
+    padding: 0px 15px 15px 0px;
+    margin:0px 85px 30px 0px;
+}
+footer{
+    display: flex;
+    margin-top: 65px;
+    height: 100px;
+    box-shadow: 5px 5px 5px #999999;
+}
+.Bright{
+    padding: 0px;
+}
+.Pright{
+    width: 340px;
+}
+.pBright{
+width: 50px;
 }
 }
