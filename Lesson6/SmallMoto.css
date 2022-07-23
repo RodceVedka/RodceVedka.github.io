@@ -27,12 +27,19 @@
         font-size: 10px;
       }
       .Pleft{
-        width:300px;
-        height: 350px;
+        width:250px;
+        height: 150px;
+        box-shadow: 0 0 30px rgba(0, 0, 0, 40);
       }
+      .Bleft{
+        width:250px;
+        height: 150px;
+        box-shadow: 0 0 30px rgba(0, 0, 0, 40);
+       }
       .Adv{
         margin-bottom: 20px;
         margin-right: 80px;
+        display: block;
       }
    .new{
     height: 60px;
@@ -43,27 +50,38 @@
    .pright{
     padding-top: 80px;
    }
-   .Bleft{
-    width:300px;
-   }
+
    .nav2{
-    height: 40px;
-    width: 750px;
+    height: 50px;
+    width: 280px;
     background-color:aliceblue;
    }  
    .nav2 ul{
+    display: flex;
     height: 30px;
     color: black;
    }
 .nav2 ul li{
-    padding: 0px 15px 15px 0px;
-    margin:0px 85px 30px 0px;
+    margin: 0px 0px 0px 0px;
 }
 footer{
-    display: flex;
-    margin-top: 65px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row: 1fr 1fr 1fr;
+    margin-top: 85px;
     height: 100px;
     box-shadow: 5px 5px 5px #999999;
+}
+.social{
+    grid-row: 2/3;
+    display: block;
+}
+.some{
+    grid-row: 1/2;
+    padding-bottom: 15px;
+}
+#sign{
+    grid-row: 3/4;
 }
 .Bright{
     padding: 0px;
@@ -73,6 +91,5 @@ footer{
 }
 .pBright{
 width: 50px;
-}
 }
 }
