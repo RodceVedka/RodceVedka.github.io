@@ -25,5 +25,36 @@
         min-width: 70px;
         text-decoration: none;
       }
-
+      .Pleft{
+        width:300px;
+        height: 350px;
+      }
+      .Adv{
+        margin-bottom: 20px;
+        background-color: aqua;
+      }
+   .new{
+    background-color: red;
+    height: 60px;
+   }
+   .rodce{
+    margin-left: 350px;
+   }
+   .pright{
+    padding-top: 80px;
+   }
+   .Bleft{
+    width:300px;
+   }
+   .nav2{
+    height: 40px;
+    width: 750px;
+   }
+   .nav2 ul{
+    text-align: center;
+    padding-bottom: 10px;
+   }
+.nav2 ul li a{
+    padding: 60px;
+}
 }
