@@ -1,0 +1,15 @@
+@media only screen and (max-width: 800px){
+    header{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .logo{
+        height: 120px;
+        width: 30%; 
+        box-shadow: 0 0 30px rgba(0, 0, 0, 40);
+    }
+    .name{
+        width: 40%;
+    }
+}
